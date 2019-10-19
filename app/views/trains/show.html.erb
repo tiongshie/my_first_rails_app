@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @train.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @train.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @train.year %>
+</p>
+
+<%= link_to 'Edit', edit_train_path(@train) %> |
+<%= link_to 'Back', trains_path %>
